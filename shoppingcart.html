@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/shoppingcart.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="cart-item">
+    <img src="/6.jpg" alt="Item Image">
+    <div class="item-info">
+      <h4>Product Name</h4>
+      <p>$10.00</p>
+      <div class="quantity">
+        <button onclick="decreaseQuantity(this)">-</button>
+        <input type="text" value="1">
+        <button onclick="increaseQuantity(this)">+</button>
+      </div>
+    </div>
+    <i class="far fa-heart like-btn" onclick="toggleLike(this)"></i>
+    <button onclick="removeItem(this)">Remove</button>
+  </div>
+  <div class="total-price">Total: $10.00</div>
+
+
+  <div class="cart-item">
+    <img src="/4.jpg" alt="Item Image">
+    <div class="item-info">
+      <h4>Product Name</h4>
+      <p>$10.00</p>
+      <div class="quantity">
+        <button onclick="decreaseQuantity(this)">-</button>
+        <input type="text" value="1">
+        <button onclick="increaseQuantity(this)">+</button>
+      </div>
+    </div>
+    <i class="far fa-heart like-btn" onclick="toggleLike(this)"></i>
+    <button onclick="removeItem(this)">Remove</button>
+  </div>
+  <div class="total-price">Total: $10.00</div>
+
+  <div class="cart-item">
+    <img src="/5.jpg" alt="Item Image">
+    <div class="item-info">
+      <h4>Product Name</h4>
+      <p>$10.00</p>
+      <div class="quantity">
+        <button onclick="decreaseQuantity(this)">-</button>
+        <input type="text" value="1">
+        <button onclick="increaseQuantity(this)">+</button>
+      </div>
+    </div>
+    <i class="far fa-heart like-btn" onclick="toggleLike(this)"></i>
+    <button onclick="removeItem(this)">Remove</button>
+  </div>
+  <div class="total-price">Total: $10.00</div>
+</div>
+
+
+
+<script src="/shoppingcart.js"></script>
+</body>
+</html>
